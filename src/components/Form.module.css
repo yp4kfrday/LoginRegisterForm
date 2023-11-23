@@ -1,0 +1,66 @@
+.formBtns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2rem;
+    background: #F8EDDD;
+    width: 20.5rem;
+    margin: auto;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.button {
+    display: block;
+    width: 9rem;
+    height: 40px;
+    line-height: 20px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+    border-radius: 2rem;
+    background: none;
+}
+
+.button:hover {
+    color: #fff;
+    border-radius: 2rem;
+}
+
+.button:hover:after {
+    width: 100%;
+    border-radius: 2rem;
+}
+
+.button:after {
+    border-radius: 2rem;
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #9E896A;
+    transition: all .35s;
+}
+
+.button span {
+    position: relative;
+    z-index: 2;
+}
+
+.activeBtn {
+    background: #9E896A;
+    color: #fff;
+    border-radius: 2rem;
+}
+
+.title {
+    text-align: center;
+}

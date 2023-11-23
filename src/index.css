@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.input {
+  color: #ACACAC;
+  border-radius: 40px;
+  border: 1px solid #9E896A;
+  background: #FFF;
+  padding: 1em;
+  font-size: 0.75em;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin: 1.3rem;
+  width: 27.1875rem;
+  height: 3.375rem;
+  box-sizing: border-box;
+  padding-left: 2rem;
+}

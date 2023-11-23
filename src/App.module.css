@@ -1,0 +1,28 @@
+.app {
+  display: inline-flex;
+  padding: 2.375rem 6.0625rem 2.3125rem 2.5625rem;
+  align-items: center;
+  gap: 111px;
+}
+
+.catContainer,
+.formContainer {
+  flex: 1;
+}
+
+.appImg {
+  border-radius: 29px;
+  background: linear-gradient(180deg, rgba(151, 118, 68, 0.35) 0%, rgba(0, 0, 0, 0.35) 100%);
+}
+
+@media (max-width: 600px) {
+  .appImg {
+    display: none;
+  }
+
+  .app {
+    flex-direction: column;
+    padding: 0px 0px 0px 0px;
+    align-items: center;
+  }
+}
