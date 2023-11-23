@@ -24,11 +24,11 @@ const Login = () => {
             const { success, data, error } = await loginUser(userName, password);
 
             if (success) {
-                console.log('Login successful', data);
+                console.log('Login successful!', data);
                 setUserName('');
                 setPassword('');
             } else {
-                console.error('Login failed:', error);
+                console.error('Login failed!:', error);
             }
         } catch (error) {
             console.error('Error during login:', error);

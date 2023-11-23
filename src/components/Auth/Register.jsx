@@ -29,12 +29,12 @@ const Register = () => {
             const { success, data, error } = await registerUser(email, userName, password);
 
             if (success) {
-                console.log('Registration successful', data);
+                console.log('Registration successful!', data);
                 setEmail('');
                 setUserName('');
                 setPassword('');
             } else {
-                console.error('Registration failed:', error);
+                console.error('Registration failed!:', error);
             }
         } catch (error) {
             console.error('Error during registration:', error);
