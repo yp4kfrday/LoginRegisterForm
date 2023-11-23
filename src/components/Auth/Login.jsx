@@ -44,7 +44,7 @@ const Login = () => {
                 value={userName}
                 onChange={(e) => {
                     setUserName(e.target.value);
-                    setUserNameError(''); // Сброс ошибки при изменении значения
+                    setUserNameError('');
                 }}
                 error={userNameError}
             />
@@ -54,7 +54,7 @@ const Login = () => {
                 value={password}
                 onChange={(e) => {
                     setPassword(e.target.value);
-                    setPasswordError(''); // Сброс ошибки при изменении значения
+                    setPasswordError('');
                 }}
                 error={passwordError}
                 isPassword

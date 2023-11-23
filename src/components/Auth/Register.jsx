@@ -50,7 +50,7 @@ const Register = () => {
                 value={email}
                 onChange={(e) => {
                     setEmail(e.target.value);
-                    setEmailError(''); // Сброс ошибки при изменении значения
+                    setEmailError('');
                 }}
                 error={emailError}
             />
